@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        table,
+        tr:nth-child(even) {background-color: #f2f2f2;}
+        tr:nth-child(odd){background-color: lightgray;}
+        th{
+            padding: 15px;
+            background-color: darkblue;
+            color: ghostwhite;
+            border: 2px solid red;
+        }
+        th:hover{
+            background-color: hotpink;
+        }
+        td {
+            border: 3px solid green;
+            text-align: center;
+            padding: 15px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Styling Tables</h1>
+        <nav>
+            <a href="../index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calender.html">Creating a Calender</a>
+        </nav>
+        <table width=80%>
+            <tr>
+                <th>Days of the Week</th>
+                <th>10 a.m.</th>
+                <th>12 p.m.</th>
+                <th>2 p.m.</th>
+                <th>4 p.m.</th>
+                <th>6 p.m.</th>
+                <th>8 p.m.</th>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td>Breakfast and yoga</td>
+                <td>Wake up routine</td>
+                <td>Eat Lunch</td>
+                <td>relax</td>
+                <td rowspan="7">Eat Dinner</td>
+                <td rowspan="4">Do Homework</td>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Get Ready and go to Speech</td>
+                <td>Eat Lunch</td>
+                <td>Graphic Design Class</td>
+                <td>Go Home and Decompress</td>
+
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Breakfast and Yoga</td>
+                <td>Morning routine</td>
+                <td>Digital Photography Class</td>
+                <td>Class Work</td>
+
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Get Ready and go to Speech Class</td>
+                <td>Eat Lunch</td>
+                <td>Graphic Design Class</td>
+                <td>Go Home and Decompress</td>
+
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td rowspan="3">Breakfast and Yoga</td>
+                <td>Morning Routine</td>
+                <td>Digital Photography Class</td>
+                <td>Class Work</td>
+                <td>Relax</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>Do a Makeup Look</td>
+                <td>Watch Youtube</td>
+                <td>Go for a walk</td>
+                <td>Art Practice</td>
+
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Enjoy the Weather</td>
+                <td>Eat Lunch</td>
+                <td>Play Games</td>
+                <td>Homework</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background: darkgray;
+    color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h1{
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: red;
+    background-color: darkblue;
+    border: 1px solid darkred;
+    margin: 5px;
+    padding: 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: royalblue;
+    background-color: darkred;
+    border: royalblue;
+}
+.container{
+    width: 80%;
+    margin: 5px auto;
+    border: 3px solid yellow;
+    overflow: auto;
+    padding: 20px;
+    background-color: lavenderblush;
+}
